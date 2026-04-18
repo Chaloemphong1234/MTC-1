@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activities | My Professional Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Port<span>folio.</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-item">หน้าหลัก</a></li>
+                <li><a href="about.html" class="nav-item">เกี่ยวกับฉัน</a></li>
+                <li><a href="portfolio.html" class="nav-item">ผลงาน</a></li>
+                <li><a href="activities.html" class="nav-item">กิจกรรม</a></li>
+                <li><a href="gallery.html" class="nav-item">งานวิจัย</a></li>
+                <li><a href="contact.html" class="nav-item">ติดต่อ</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <div class="page-header bg-light">
+        <div class="container">
+            <h1>กิจกรรม<span>ที่เข้าร่วม</span></h1>
+            <p>รวมภาพกิจกรรมและประสบการณ์ดีๆ ที่ผ่านมา</p>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio section-fade">
+        <div class="container">
+
+
+            <div class="portfolio-grid">
+                <!-- Card 1 -->
+                <div class="portfolio-card">
+                    <div class="card-img" onclick="openModal(this)" style="cursor: pointer;" title="คลิกเพื่อดูภาพเต็ม">
+                        <img src="im/มทบ11.png" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>กิจกรรม ค่ายเยาวชนส่งเสริมคุณธรรม จริยธรรม</h3>
+                        <p class="card-desc">วันที่ 21 - 23 กรกฎาคม 2566 เข้าร่วมกิจกรรม ค่ายเยาวชนส่งเสริมคุณธรรม
+                            จริยธรรม</p>
+
+                        <a href="javascript:void(0)" class="btn-text"
+                            onclick="openProjectModal(this)">ดูรายละเอียดเพิ่มเติม <i
+                                class="fas fa-arrow-right"></i></a>
+                        <!-- ข้อมูลซ่อนสำหรับ Modal ให้นำข้อความและรูปย่อยมาแก้ที่นี่ -->
+                        <div class="modal-data" style="display: none;">
+                            <div class="modal-extra-desc">
+                                <p>รายละเอียดเพิ่มเติม:
+                                    วันที่ 21 - 23 กรกฎาคม 2566 เข้าร่วมกิจกรรม ค่ายเยาวชนส่งเสริมคุณธรรม จริยธรรม
+                                    ประจำปี 2566
+                                    ณ มณฑลทหารบกที่ 23 จังหวัดขอนแก่น
+                                </p>
+                            </div>
+                            <div class="modal-extra-images">
+
+                                <img src="im/มทบ12.png" alt="">
+                                <img src="im/มทบ13.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="portfolio-card">
+                    <div class="card-img" onclick="openModal(this)" style="cursor: pointer;" title="คลิกเพื่อดูภาพเต็ม">
+                        <img src="im/มทบ21.png" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>โครงการ SRIPHATCHARIN SUMMER CAMP</h3>
+                        <p class="card-desc">วันที่ 26 เมษายน 2567
+                            ได้เป็นครูฝึกให้เยาวชนใน โครงการ SRIPHATCHARIN SUMMER CAMP</p>
+
+                        <a href="javascript:void(0)" class="btn-text"
+                            onclick="openProjectModal(this)">ดูรายละเอียดเพิ่มเติม <i
+                                class="fas fa-arrow-right"></i></a>
+                        <!-- ข้อมูลซ่อนสำหรับ Modal ให้นำข้อความและรูปย่อยมาแก้ที่นี่ -->
+                        <div class="modal-data" style="display: none;">
+                            <div class="modal-extra-desc">
+                                <p>รายละเอียดเพิ่มเติม:
+                                    วันที่ 26 เมษายน 2567
+                                    ได้เป็นครูฝึกให้เยาวชนใน โครงการ SRIPHATCHARIN SUMMER CAMP “ปิดเทอมใหญ่ หัวใจเบิกบาน
+                                    สนุกสำราญ ในบ้านเรา” ประจำปี 2567 ณ มณฑลทหารบกที่ 23 จังหวัดขอนแก่น
+                                </p>
+                            </div>
+                            <div class="modal-extra-images">
+                                <img src="im/มทบ22.png" alt="">
+                                <img src="im/มทบ23.png" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="portfolio-card">
+                    <div class="card-img" onclick="openModal(this)" style="cursor: pointer;" title="คลิกเพื่อดูภาพเต็ม">
+                        <img src="im/มทบ31.png" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>กิจกรรมขับเคลื่อนเครือข่ายการมีส่วนร่วม ชมรมกตัญญูคลับ</h3>
+                        <p class="card-desc">วันที่ 6 - 7 ธันวาคม 2567
+                            ได้เข้าร่วมกิจกรรมขับเคลื่อนเครือข่ายการมีส่วนร่วม ชมรมกตัญญูคลับ</p>
+
+                        <a href="javascript:void(0)" class="btn-text"
+                            onclick="openProjectModal(this)">ดูรายละเอียดเพิ่มเติม <i
+                                class="fas fa-arrow-right"></i></a>
+                        <!-- ข้อมูลซ่อนสำหรับ Modal ให้นำข้อความและรูปย่อยมาแก้ที่นี่ -->
+                        <div class="modal-data" style="display: none;">
+                            <div class="modal-extra-desc">
+                                <p>รายละเอียดเพิ่มเติม:
+                                    วันที่ 6 - 7 ธันวาคม 2567 ได้เข้าร่วมกิจกรรมขับเคลื่อนเครือข่ายการมีส่วนร่วม
+                                    ชมรมกตัญญูคลับ ประจำปีงบประมาณ 2568 ณ โรงแรมขอนแก่นโฮเต็ล
+                                </p>
+                            </div>
+                            <div class="modal-extra-images">
+                                <img src="im/มทบ32.png" alt="">
+                                <img src="im/มทบ33.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="card-img" onclick="openModal(this)" style="cursor: pointer;" title="คลิกเพื่อดูภาพเต็ม">
+                        <img src="im/d1.png" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>กิจกรรมส่งเสริมการเรียนรู้และพัฒนาทักษะดิจิทัลภายใต้โครงการ Codling Thailand 2025</h3>
+                        <p class="card-desc">วันที่ 30 มิ.ย. - 1 ก.ค. 2568
+                            ได้เข้าร่วมกิจกรรมส่งเสริมการเรียนรู้และพัฒนาทักษะดิจิทัลภายใต้โครงการ Codling Thailand 2025
+                        </p>
+
+                        <a href="javascript:void(0)" class="btn-text"
+                            onclick="openProjectModal(this)">ดูรายละเอียดเพิ่มเติม <i
+                                class="fas fa-arrow-right"></i></a>
+                        <!-- ข้อมูลซ่อนสำหรับ Modal ให้นำข้อความและรูปย่อยมาแก้ที่นี่ -->
+                        <div class="modal-data" style="display: none;">
+                            <div class="modal-extra-desc">
+                                <p>รายละเอียดเพิ่มเติม: วันที่ 30 มิ.ย. - 1 ก.ค. 2568
+                                    นำนักศึกษาเข้าร่วมกิจกรรมส่งเสริมการเรียนรู้และพัฒนาทักษะดิจิทัลภายใต้โครงการ
+                                    Codling Thailand 2025 และแข่งขันทักษะ Iot&AIot
+                                    ณ ศูนย์ประชุมและแสดงสินค้านานาชาติ (KICE) จังหวัดขอนแก่น
+                                </p>
+                            </div>
+                            <div class="modal-extra-images">
+                                <img src="im/d11.png" alt="">
+                                <img src="im/d111.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="card-img" onclick="openModal(this)" style="cursor: pointer;" title="คลิกเพื่อดูภาพเต็ม">
+                        <img src="im/ชย111.png" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>พิธีถวายเครื่องราชสักการะ พุ่มเงิน พุ่มทอง</h3>
+                        <p class="card-desc">วันที่ 25 กรกฎาคม 2568
+                            ได้เข้าร่วมพิธีถวายเครื่องราชสักการะ พุ่มเงิน พุ่มทอง
+                        </p>
+
+                        <a href="javascript:void(0)" class="btn-text"
+                            onclick="openProjectModal(this)">ดูรายละเอียดเพิ่มเติม <i
+                                class="fas fa-arrow-right"></i></a>
+                        <!-- ข้อมูลซ่อนสำหรับ Modal ให้นำข้อความและรูปย่อยมาแก้ที่นี่ -->
+                        <div class="modal-data" style="display: none;">
+                            <div class="modal-extra-desc">
+                                <p>รายละเอียดเพิ่มเติม: วันที่ 25 กรกฎาคม 2568
+                                    เข้าร่วมพิธีถวายเครื่องราชสักการะ พุ่มเงิน พุ่มทอง
+                                    เนื่องในโอกาสพระราชพิธีมหามงคลเฉลิมพระชนมพรรษา 6 รอบ 25 กรกฏาคม 2568 รัชกาลที่ 10 ณ
+                                    โดมหน้าเสาธงวิทยาลัยเทคนิคชัยภูมิ
+                            </div>
+                            <div class="modal-extra-images">
+                                <img src="im/ชย1.png" alt="">
+                                <img src="im/ชย11.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="card-img" onclick="openModal(this)" style="cursor: pointer;" title="คลิกเพื่อดูภาพเต็ม">
+                        <img src="im/ชย2.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>กิจกรรมโครงการเสริมภาพลักษณ์อาชีวศึกษา อวท.จิตอาสา เราทำความดีด้วยหัวใจ</h3>
+                        <p class="card-desc">วันที่ 22 สิงหาคม 2568
+                            ได้เข้าร่วมกิจกรรมโครงการเสริมภาพลักษณ์อาชีวศึกษา อวท.จิตอาสา เราทำความดีด้วยหัวใจ
+                            เฉลิมพระเกียรติพระบาทสมเด็จพระปรเมนทรรามาธิบดี ศรีสินทรมหาวชิราลงกรณ์
+                            พระวชิรเกล้าเจ้าอยู่หัว
+                        </p>
+
+                        <a href="javascript:void(0)" class="btn-text"
+                            onclick="openProjectModal(this)">ดูรายละเอียดเพิ่มเติม <i
+                                class="fas fa-arrow-right"></i></a>
+                        <!-- ข้อมูลซ่อนสำหรับ Modal ให้นำข้อความและรูปย่อยมาแก้ที่นี่ -->
+                        <div class="modal-data" style="display: none;">
+                            <div class="modal-extra-desc">
+                                <p>รายละเอียดเพิ่มเติม: วันที่ 22 สิงหาคม 2568
+                                    ได้เข้าร่วมกิจกรรมโครงการเสริมภาพลักษณ์อาชีวศึกษา อวท.จิตอาสา เราทำความดีด้วยหัวใจ
+                                    เฉลิมพระเกียรติพระบาทสมเด็จพระปรเมนทรรามาธิบดี ศรีสินทรมหาวชิราลงกรณ์
+                                    พระวชิรเกล้าเจ้าอยู่หัว เนื่องในโอกาสพระราชพิธีมหามงคลเฉลิมพระชนมพรรษา 5 รอบ 72
+                                    พรรษา
+                            </div>
+                            <div class="modal-extra-images">
+                                <img src="im/ชย22.jpg" alt="">
+                                <img src="im/ชย222.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="card-img" onclick="openModal(this)" style="cursor: pointer;" title="คลิกเพื่อดูภาพเต็ม">
+                        <img src="im/กทม1.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>โครงการอบรมเชิงปฏิบัติการ การพัฒนานวัตกรรมและเทคโนโลยี (AI for Coding)</h3>
+                        <p class="card-desc">วันที่ 11 - 15 กันยายน 2568
+                            ได้เข้าร่วมเข้าร่วมโครงการอบรมเชิงปฏิบัติการ การพัฒนานวัตกรรมและเทคโนโลยี (AI for
+                            Coding)
+                        </p>
+
+                        <a href="javascript:void(0)" class="btn-text"
+                            onclick="openProjectModal(this)">ดูรายละเอียดเพิ่มเติม <i
+                                class="fas fa-arrow-right"></i></a>
+                        <!-- ข้อมูลซ่อนสำหรับ Modal ให้นำข้อความและรูปย่อยมาแก้ที่นี่ -->
+                        <div class="modal-data" style="display: none;">
+                            <div class="modal-extra-desc">
+                                <p>รายละเอียดเพิ่มเติม: วันที่ 11 - 15 กันยายน 2568
+                                    ได้เข้าร่วมเข้าร่วมโครงการอบรมเชิงปฏิบัติการ การพัฒนานวัตกรรมและเทคโนโลยี (AI for
+                                    Coding) ณ สำนักพัฒนาสมรรถนะครูและบุคลาการอาชีวศึกษา กรุงเทพมหานคร
+                            </div>
+                            <div class="modal-extra-images">
+                                <img src="im/กทม11.png" alt="">
+                                <img src="im/กทม111.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="card-img" onclick="openModal(this)" style="cursor: pointer;" title="คลิกเพื่อดูภาพเต็ม">
+                        <img src="im/d3.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>โครงการ Coding & AI Incubation</h3>
+                        <p class="card-desc">วันที่ 13 กันยายน 2568
+                            นำนักศึกษาเข้าร่วมโครงการ Coding & AI Incubation
+                            กิจกรรมเสริมศักยภาพเข้มข้นให้พร้อมต่อยอดนวัตกรรมดิจิทัล
+                        </p>
+
+                        <a href="javascript:void(0)" class="btn-text"
+                            onclick="openProjectModal(this)">ดูรายละเอียดเพิ่มเติม <i
+                                class="fas fa-arrow-right"></i></a>
+                        <!-- ข้อมูลซ่อนสำหรับ Modal ให้นำข้อความและรูปย่อยมาแก้ที่นี่ -->
+                        <div class="modal-data" style="display: none;">
+                            <div class="modal-extra-desc">
+                                <p>รายละเอียดเพิ่มเติม: วันที่ 13 กันยายน 2568
+                                    นำนักศึกษาเข้าร่วมโครงการ Coding & AI Incubation
+                                    กิจกรรมเสริมศักยภาพเข้มข้นให้พร้อมต่อยอดนวัตกรรมดิจิทัล
+                                    ก่อนเข้าร่วมการแข่งขันระดับประเทศ (National Coding & AI Competition) ณ
+                                    ทรูดิจิทัลพาร์ค กรุงเทพมหานคร
+                            </div>
+                            <div class="modal-extra-images">
+                                <img src="im/d33.jpg" alt="">
+                                <img src="im/d333.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="card-img" onclick="openModal(this)" style="cursor: pointer;" title="คลิกเพื่อดูภาพเต็ม">
+                        <img src="im/ชย3.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>โครงการจัดทำแผนปฎิบัติกิจกรรมและการส่งเสริมสร้างภาวะผู้นำ</h3>
+                        <p class="card-desc">วันที่ 8 - 10 ตุลาคม 2568
+                            ข้าร่วมโครงการจัดทำแผนปฎิบัติกิจกรรมและการส่งเสริมสร้างภาวะผู้นำ
+                            องค์การนักวิชาชีพแห่งประเทศไทยวิทยาลัยเทคนิคชัยภู,b
+                        </p>
+
+                        <a href="javascript:void(0)" class="btn-text"
+                            onclick="openProjectModal(this)">ดูรายละเอียดเพิ่มเติม <i
+                                class="fas fa-arrow-right"></i></a>
+                        <!-- ข้อมูลซ่อนสำหรับ Modal ให้นำข้อความและรูปย่อยมาแก้ที่นี่ -->
+                        <div class="modal-data" style="display: none;">
+                            <div class="modal-extra-desc">
+                                <p>รายละเอียดเพิ่มเติม: วันที่ 8 - 10 ตุลาคม 2568
+                                    เข้าร่วมโครงการจัดทำแผนปฎิบัติกิจกรรมและการส่งเสริมสร้างภาวะผู้นำ
+                                    องค์การนักวิชาชีพแห่งประเทศไทยวิทยาลัยเทคนิคชัยภูมิ ประจำปีงบประมาณ พ.ศ. 2569 ณ
+                                    ห้องประชุมกังสดาล วิทยาลัยเทคนิคชัยภูมิ
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="card-img" onclick="openModal(this)" style="cursor: pointer;" title="คลิกเพื่อดูภาพเต็ม">
+                        <img src="im/image (13).png" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>กิจกรรมวันคริสต์มาสและวันขึ้นปีใหม่</h3>
+                        <p class="card-desc">วันที่ 24 ธันวาคม 2568
+                            ได้เข้าร่วมกิจกรรมวันคริสต์มาสและวันขึ้นปีใหม่ และแลกของขวัญ
+                            ประจำปีการศึกษา 2568
+                        </p>
+
+                        <a href="javascript:void(0)" class="btn-text"
+                            onclick="openProjectModal(this)">ดูรายละเอียดเพิ่มเติม <i
+                                class="fas fa-arrow-right"></i></a>
+                        <!-- ข้อมูลซ่อนสำหรับ Modal ให้นำข้อความและรูปย่อยมาแก้ที่นี่ -->
+                        <div class="modal-data" style="display: none;">
+                            <div class="modal-extra-desc">
+                                <p>รายละเอียดเพิ่มเติม: วันที่ 24 ธันวาคม 2568
+                                    ได้เข้าร่วมกิจกรรมวันคริสต์มาสและวันขึ้นปีใหม่ และแลกของขวัญ
+                                    ประจำปีการศึกษา 2568 ณ แผนกเทคโนโลยีสารสนเทศ วิทยาลัยเทคนิคชัยภูมิ
+                            </div>
+                            <div class="modal-extra-images">
+                                <img src="im/image (12).png" alt="">
+                                <img src="im/image (14).png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- More Activity Cards can go here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- The Modal (Lightbox) -->
+    <div id="imageModal" class="modal">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="fullImg">
+        <div id="caption"></div>
+    </div>
+
+    <!-- Project Details Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content-box">
+            <span class="close-modal" onclick="closeProjectModal()">&times;</span>
+            <div id="projectModalBody"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

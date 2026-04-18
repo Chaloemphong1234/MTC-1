@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | My Professional Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Port<span>folio.</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-item">หน้าหลัก</a></li>
+                <li><a href="about.html" class="nav-item">เกี่ยวกับฉัน</a></li>
+                <li><a href="portfolio.html" class="nav-item">ผลงาน</a></li>
+                <li><a href="activities.html" class="nav-item">กิจกรรม</a></li>
+                <li><a href="gallery.html" class="nav-item">งานวิจัย</a></li>
+                <li><a href="contact.html" class="nav-item">ติดต่อ</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <div class="page-header bg-light">
+        <div class="container">
+            <h1>ผลงาน<span>ที่ภูมิใจ</span></h1>
+            <p>รวมผลงานที่ภูมิใจ และการนำนักเรียน นักศึกษาเข้าร่วมการแข่งขัน</p>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio section-fade">
+        <div class="container">
+
+
+            <div class="portfolio-grid">
+                <!-- Card 1 -->
+                <div class="portfolio-card">
+                    <div class="card-img" onclick="openModal(this)" style="cursor: pointer;" title="คลิกเพื่อดูภาพเต็ม">
+                        <img src="im/รช1.png" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>การแข่งขันนำเสนอนวัตกรรมและสิ่งประดิษฐ์ ราชมงคลขอนแก่น ครั้งที่ 5
+                        </h3>
+                        <p class="card-desc">วันที่ 8 สิงหาคม 2568
+                            นำนักศึกษาเข้าร่วมการแข่งขันนำเสนอนวัตกรรมและสิ่งประดิษฐ์ ราชมงคล ระดับอาชีวิศึกษา
+                            ได้รับรางวัลรองชนะเลิศอันดับที่ 2 เหรียญทอง</p>
+
+                        <a href="javascript:void(0)" class="btn-text"
+                            onclick="openProjectModal(this)">ดูรายละเอียดเพิ่มเติม <i
+                                class="fas fa-arrow-right"></i></a>
+                        <!-- ข้อมูลซ่อนสำหรับ Modal ให้นำข้อความและรูปย่อยมาแก้ที่นี่ -->
+                        <div class="modal-data" style="display: none;">
+                            <div class="modal-extra-desc">
+                                <p>รายละเอียดเพิ่มเติม:
+                                    วันที่ 8 สิงหาคม 2568 นำนักศึกษาข้าร่วมการแข่งขันทักษะทางวิชาการและวิชาชีพ
+                                    ระดับอาชีวศึกษา ครั้งที่ 5 ประจำปี 2568 ณ มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน
+                                    วิทยาเขตขอนแก่น โดยได้เข้าร่วมการแข่งขันนำเสนอนวัตกรรมและสิ่งประดิษฐ์
+                                    ได้รับรางวัลรองชนะเลิศอันดับที่ 2
+                                    เหรียญทอง
+                                </p>
+                            </div>
+                            <div class="modal-extra-images">
+
+                                <img src="im/รช11.png" alt="">
+                                <img src="im/รช1111.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="portfolio-card">
+                    <div class="card-img" onclick="openModal(this)" style="cursor: pointer;" title="คลิกเพื่อดูภาพเต็ม">
+                        <img src="im/d2.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>การแข่งขันผลงานนวัตกรรมดิจิทัล IoT AIoT & Ros รอบ Regional Coding & AI Competition
+                            ภาคอีสานตอนกลาง</h3>
+                        <p class="card-desc">วันที่ 21 สิงหาคม 2568
+                            เข้าร่วมการแข่งขันผลงานนวัตกรรมดิจิทัล IoT AIoT & Ros รอบ Regional Coding & AI Competition
+                            ภาคอีสานตอนกลาง ผ่านเข้าสู่รอบ National Coding & AI Competition ระดับประเทศ</p>
+
+                        <a href="javascript:void(0)" class="btn-text"
+                            onclick="openProjectModal(this)">ดูรายละเอียดเพิ่มเติม <i
+                                class="fas fa-arrow-right"></i></a>
+                        <!-- ข้อมูลซ่อนสำหรับ Modal ให้นำข้อความและรูปย่อยมาแก้ที่นี่ -->
+                        <div class="modal-data" style="display: none;">
+                            <div class="modal-extra-desc">
+                                <p>รายละเอียดเพิ่มเติม:
+                                    วันที่ 21 สิงหาคม 2568
+                                    นำนักศึกษาเข้าร่วมการแข่งขันผลงานนวัตกรรมดิจิทัล IoT AIoT & Ros รอบ Regional Coding
+                                    & AI Competition ภาคอีสานตอนกลาง ภายใต้โครงการ Coding Thailand 2025: AI-Driven
+                                    Future ณ สำนักงาน
+                                    ส่งเสริมเศรษฐกิจดิจิทัล สาขาภาคอีสานตอนล่าง จ.ขอนแก่น เพื่อคัดเลือกหา 25
+                                    ทีมสุดท้ายเข้าชิงรอบ National Coding & AI Competition การแข่งขันระดับประเทศ
+                                    🏅ผ่านเข้าสู่รอบ National Coding & AI Competition ระดับประเทศ ณ เดอะมอลล์ ไลฟ์สโตร์
+                                    บางกะปิ กรุงเทพมหานคร
+                                </p>
+                            </div>
+                            <div class="modal-extra-images">
+                                <img src="im/d22.png" alt="">
+                                <img src="im/d222.png" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="portfolio-card">
+                    <div class="card-img" onclick="openModal(this)" style="cursor: pointer;" title="คลิกเพื่อดูภาพเต็ม">
+                        <img src="im/d4.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>การแข่งขัน สิ่งประดิษฐ์ By Depa รอบ National Coding & AI Competition</h3>
+                        <p class="card-desc">วันที่ 3 - 5 ตุลาคม 2568
+                            นำนักศึกษาเข้าร่วมการแข่งขัน National Coding & AI Competition ภายใต้โครงการ Coding Thailand
+                            2025: AI-Driven Future </p>
+
+                        <a href="javascript:void(0)" class="btn-text"
+                            onclick="openProjectModal(this)">ดูรายละเอียดเพิ่มเติม <i
+                                class="fas fa-arrow-right"></i></a>
+                        <!-- ข้อมูลซ่อนสำหรับ Modal ให้นำข้อความและรูปย่อยมาแก้ที่นี่ -->
+                        <div class="modal-data" style="display: none;">
+                            <div class="modal-extra-desc">
+                                <p>รายละเอียดเพิ่มเติม:
+                                    วันที่ 3 - 5 ตุลาคม 2568
+
+                                    นำนักศึกษาเข้าร่วมกิจกรรม National Coding & AI Competition ภายใต้โครงการ Coding
+                                    Thailand 2025: AI-Driven Future (การแข่งขันสิ่งประดิษฐ์ By Depa ระดับประเทศ) ณ
+                                    เดอะมอลบางกะปิ กรุงเทพมหานคร
+                                </p>
+                            </div>
+                            <div class="modal-extra-images">
+                                <img src="im/d44.jpg" alt="">
+                                <img src="im/d444.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="card-img" onclick="openModal(this)" style="cursor: pointer;" title="คลิกเพื่อดูภาพเต็ม">
+                        <img src="im/ป11.JPG" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>การประกวดสิ่งประดิษฐ์ของคนรุ่นใหม่ ระดับสถานศึกษา ประจำปีการศึกษา 2568</h3>
+                        <p class="card-desc">วันที่ 29 ตุลาคม 2568
+                            เป็นครูผู้ควบคุมและนำนักศึกษาเข้าร่วมการประกวดสิ่งประดิษฐ์ของคนรุ่นใหม่ ระดับสถานศึกษา
+                            ประจำปีการศึกษา 2568
+                        </p>
+
+                        <a href="javascript:void(0)" class="btn-text"
+                            onclick="openProjectModal(this)">ดูรายละเอียดเพิ่มเติม <i
+                                class="fas fa-arrow-right"></i></a>
+                        <!-- ข้อมูลซ่อนสำหรับ Modal ให้นำข้อความและรูปย่อยมาแก้ที่นี่ -->
+                        <div class="modal-data" style="display: none;">
+                            <div class="modal-extra-desc">
+                                <p>รายละเอียดเพิ่มเติม: วันที่ 29 ตุลาคม 2568
+                                    เป็นครูผู้ควบคุมและนำนักศึกษาเข้าร่วมการประกวดสิ่งประดิษฐ์ของคนรุ่นใหม่
+                                    ระดับสถานศึกษา ประจำปีการศึกษา 2568 ณ แผนกวิชาช่างกลโรงงานและเทคนิคการผลิต
+                                    วิทยาลัยเทคนิคชัยภูมิ
+                                </p>
+                            </div>
+                            <div class="modal-extra-images">
+                                <img src="im/ป1.JPG" alt="">
+                                <img src="im/ป111.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="card-img" onclick="openModal(this)" style="cursor: pointer;" title="คลิกเพื่อดูภาพเต็ม">
+                        <img src="im/ท1.png" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>การแข่งขันทักษะวิชาชีพและทักษะพื้นฐาน ทักษะเทคโนโลยีสารสนเทศ ระดับสถานศึกษา ปีการศึกษา 2568
+                        </h3>
+                        <p class="card-desc">วันที่ 29 ตุลาคม 2568
+                            นำนักศึกษาเข้าร่วมงานประชุมวิชาการองค์การนักวิชาชีพแห่งประเทศไทย (อวท.)
+                            การแข่งขันทักษะวิชาชีพและทักษะพื้นฐาน ครั้งที่ 35 ระดับสถานศึกษา ประจำปีการศึกษา 2568
+                        </p>
+
+                        <a href="javascript:void(0)" class="btn-text"
+                            onclick="openProjectModal(this)">ดูรายละเอียดเพิ่มเติม <i
+                                class="fas fa-arrow-right"></i></a>
+                        <!-- ข้อมูลซ่อนสำหรับ Modal ให้นำข้อความและรูปย่อยมาแก้ที่นี่ -->
+                        <div class="modal-data" style="display: none;">
+                            <div class="modal-extra-desc">
+                                <p>รายละเอียดเพิ่มเติม: วันที่ 29 ตุลาคม 2568
+                                    นำนักศึกษาเข้าร่วมงานประชุมวิชาการองค์การนักวิชาชีพแห่งประเทศไทย (อวท.)
+                                    การแข่งขันทักษะวิชาชีพและทักษะพื้นฐาน ครั้งที่ 35 ระดับสถานศึกษา ประจำปีการศึกษา
+                                    2568 ณ แผนกเทคโนโลยีสารสนเทศ วิทยาลัยเทคนิคชัยภูมิ
+                            </div>
+                            <div class="modal-extra-images">
+                                <img src="im/ท11.jpg" alt="">
+                                <img src="im/ท111.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="portfolio-card">
+                    <div class="card-img" onclick="openModal(this)" style="cursor: pointer;" title="คลิกเพื่อดูภาพเต็ม">
+                        <img src="im/ป2.JPG" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>การประกวดสิ่งประดิษฐ์ของคนรุ่นใหม่ ระดับกลุ่มจังหวัด ชัยภูมิ-มหาสารคาม ประจำปีการศึกษา 2568
+                        </h3>
+                        <p class="card-desc">วันที่ 13-14 พฤศจิกายน 2568
+                            เป็นครูผู้ควบคุมและนำนักศึกษาเข้าร่วมการประกวดสิ่งประดิษฐ์ของคนรุ่นใหม่ ระดับกลุ่มจังหวัด
+                            ชัยภูมิ-มหาสารคาม
+                            ประจำปีการศึกษา 2568 ณ โดมวิทยาลัยเกษตรและเทคโนโลยีชัยภูมิ
+                            โดย 1. ประเภทที่ 2 ระบบวิเคราะห์ภาษามือด้วยเทคโนโลยี AIoT (ได้รับรางวัลชนะเลิศ)
+                            2. ประเภทที่ 7 ศูนย์ข้อมูลสมัครเรียนอัจฉริยะ วิทยาลัยเทคนิคชัยภูมิ
+                            (ได้รับรางวัลรองชนะเลิศอันดับที่ 1)
+                        </p>
+
+                        <a href="javascript:void(0)" class="btn-text"
+                            onclick="openProjectModal(this)">ดูรายละเอียดเพิ่มเติม <i
+                                class="fas fa-arrow-right"></i></a>
+                        <!-- ข้อมูลซ่อนสำหรับ Modal ให้นำข้อความและรูปย่อยมาแก้ที่นี่ -->
+                        <div class="modal-data" style="display: none;">
+                            <div class="modal-extra-desc">
+                                <p>รายละเอียดเพิ่มเติม: วันที่ 13-14 พฤศจิกายน 2568
+                                    เป็นครูผู้ควบคุมและนำนักศึกษาเข้าร่วมการประกวดสิ่งประดิษฐ์ของคนรุ่นใหม่
+                                    ระดับกลุ่มจังหวัด ชัยภูมิ-มหาสารคาม ประจำปีการศึกษา 2568 ณ
+                                    โดมวิทยาลัยเกษตรและเทคโนโลยีชัยภูมิ วิทยาลัยเกษตรและเทคโนโลยีชัยภูมิ
+                                    โดยส่งเข้าร่วมการแข่งขัน 2 รายการ 2 ประเภท ดังนี้
+                                    1. ประเภทที่ 2 ระบบวิเคราะห์ภาษามือด้วยเทคโนโลยี AIoT (ชนะเลิศ)
+                                    2. ประเภทที่ 7 ศูนย์ข้อมูลสมัครเรียนอัจฉริยะ วิทยาลัยเทคนิคชัยภูมิ
+                                    (รองชนะเลิศอันดับที่ 1)
+                                    ทั้ง 2 ประเภท ได้เป็นตัวแทนไปแข่งขันระดับภาค ณ จังหวัดนครพนม
+                            </div>
+                            <div class="modal-extra-images">
+                                <img src="im/ป222.jpg" alt="">
+                                <img src="im/ป22.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="card-img" onclick="openModal(this)" style="cursor: pointer;" title="คลิกเพื่อดูภาพเต็ม">
+                        <img src="im/ท222.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>การแข่งขันทักษะวิชาชีพและทักษะพื้นฐาน ระดับจังหวัดชัยภูมิ ประจำปีการศึกษา 2568
+                        </h3>
+                        <p class="card-desc">วันที่ 20-22 พฤศจิกายน 2568
+                            เป็นครูผู้ควบคุมและนำนักศึกษาเข้าร่วมการแข่งขันทักษะวิชาชีพและทักษะพื้นฐาน
+                            ระดับจังหวัดชัยภูมิ ประจำปีการศึกษา 2568
+                            1. ทักษะการวิเคราะห์ข้อมูล ระดับ ปวช. ประเภท ทีม (ได้รับรางวัลชนะเลิศ)
+                        </p>
+
+                        <a href="javascript:void(0)" class="btn-text"
+                            onclick="openProjectModal(this)">ดูรายละเอียดเพิ่มเติม <i
+                                class="fas fa-arrow-right"></i></a>
+                        <!-- ข้อมูลซ่อนสำหรับ Modal ให้นำข้อความและรูปย่อยมาแก้ที่นี่ -->
+                        <div class="modal-data" style="display: none;">
+                            <div class="modal-extra-desc">
+                                <p>รายละเอียดเพิ่มเติม: วันที่ 20-22 พฤศจิกายน 2568
+                                    เป็นครูผู้ควบคุมและนำนักศึกษาเข้าร่วมการแข่งขันทักษะวิชาชีพและทักษะพื้นฐาน
+                                    ระดับจังหวัดชัยภูมิ ประจำปีการศึกษา 2568 ณ แผนกเทคโนโลยีสารสนเทศ
+                                    วิทยาลัยเทคนิคชัยภูมิ โดยส่งเข้าร่วมการแข่งขัน 1 รายการ ดังนี้
+                                    1. ทักษะการวิเคราะห์ข้อมูล ระดับ ปวช. ประเภท ทีม (ชนะเลิศ)
+                                    ได้เป็นตัวแทนไปแข่งขันระดับภาค ณ วิทยาลัยเทคนิคกาฬสินธุ์ จังหวัดกาฬสินธุ์
+                            </div>
+                            <div class="modal-extra-images">
+                                <img src="im/ท22.jpg" alt="">
+                                <img src="im/ท2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="card-img" onclick="openModal(this)" style="cursor: pointer;" title="คลิกเพื่อดูภาพเต็ม">
+                        <img src="im/ป3.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>การประกวดสิ่งประดิษฐ์ของคนรุ่นใหม่ ระดับภาคตะวันออกเฉียงเหนือ ประจำปีการศึกษา 2568
+                        </h3>
+                        <p class="card-desc">วันที่ 28-30 พฤศจิกายน 2568
+                            เป็นครูผู้ควบคุมและนำนักศึกษาเข้าร่วมการประกวดสิ่งประดิษฐ์ของคนรุ่นใหม่
+                            ระดับภาคตะวันออกเฉียงเหนือ ประจำปีการศึกษา 2568
+                            1. ประเภทที่ 2 ระบบวิเคราะห์ภาษามือด้วยเทคโนโลยี AIoT (มาตรฐานเหรียญทอง)
+                            2. ประเภทที่ 7 ศูนย์ข้อมูลสมัครเรียนอัจฉริยะ วิทยาลัยเทคนิคชัยภูมิ (
+                            มาตรฐานเหรียญทอง)
+                        </p>
+
+                        <a href="javascript:void(0)" class="btn-text"
+                            onclick="openProjectModal(this)">ดูรายละเอียดเพิ่มเติม <i
+                                class="fas fa-arrow-right"></i></a>
+                        <!-- ข้อมูลซ่อนสำหรับ Modal ให้นำข้อความและรูปย่อยมาแก้ที่นี่ -->
+                        <div class="modal-data" style="display: none;">
+                            <div class="modal-extra-desc">
+                                <p>รายละเอียดเพิ่มเติม: วันที่ 28-30 พฤศจิกายน 2568
+                                    เป็นครูผู้ควบคุมและนำนักศึกษาเข้าร่วมการประกวดสิ่งประดิษฐ์ของคนรุ่นใหม่
+                                    ระดับภาคตะวันออกเฉียงเหนือ ประจำปีการศึกษา 2568 ณ ลานพญาศรีสัตตนาคราช
+                                    จัดโดยวิทยาลัยเทคนิคนครพนม จังหวัดนครพนม โดยส่งเข้าร่วมการแข่งขัน 2 รายการ 2 ประเภท
+                                    ดังนี้
+                                    1. ประเภทที่ 2 ระบบวิเคราะห์ภาษามือด้วยเทคโนโลยี AIoT (ลำดับที่ 6 จาก 28
+                                    มาตรฐานเหรียญทอง)
+                                    2. ประเภทที่ 7 ศูนย์ข้อมูลสมัครเรียนอัจฉริยะ วิทยาลัยเทคนิคชัยภูมิ (ลำดับที่ 8 จาก
+                                    26 มาตรฐานเหรียญทอง)
+                            </div>
+                            <div class="modal-extra-images">
+                                <img src="im/ป33.jpg" alt="">
+                                <img src="im/ป333.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <div class="card-img" onclick="openModal(this)" style="cursor: pointer;" title="คลิกเพื่อดูภาพเต็ม">
+                        <img src="im/ท3.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>การแข่งขันทักษะวิชาชีพและทักษะพื้นฐาน ระดับภาคตะวันออกเฉียงเหนือ ประจำปีการศึกษา 2568
+                        </h3>
+                        <p class="card-desc">วันที่ 15-19 ธันวาคม 2568
+                            เป็นครูผู้ควบคุมและนำนักศึกษาเข้าร่วมการแข่งขันทักษะวิชาชีพและทักษะพื้นฐาน
+                            ระดับภาคตะวันออกเฉียงเหนือ ประจำปีการศึกษา 2568<br>
+                            ทักษะการวิเคราะห์ข้อมูล ระดับ ปวช. ประเภท ทีม (ได้รับรางวัลรองชนะเลิศอันดับ 1) <br>
+                        <p style="color: rgb(255, 0, 187);">เป็นกรรมการดำเนินงาน ทักษะการวิเคราะห์ข้อมูล <br>
+                            และทักษะเทคโนโลยีปัญญาประดิษฐ์</p>
+                        </p>
+
+                        <a href="javascript:void(0)" class="btn-text"
+                            onclick="openProjectModal(this)">ดูรายละเอียดเพิ่มเติม <i
+                                class="fas fa-arrow-right"></i></a>
+                        <!-- ข้อมูลซ่อนสำหรับ Modal ให้นำข้อความและรูปย่อยมาแก้ที่นี่ -->
+                        <div class="modal-data" style="display: none;">
+                            <div class="modal-extra-desc">
+                                <p>รายละเอียดเพิ่มเติม: วันที่ 15-19 ธันวาคม 2568
+                                    เป็นครูผู้ควบคุมและนำนักศึกษาเข้าร่วมการแข่งขันทักษะวิชาชีพและทักษะพื้นฐาน
+                                    ระดับภาคตะวันออกเฉียงเหนือ ประจำปีการศึกษา 2568 ณ แผนกเทคโนโลยีคอมพิวเตอร์
+                                    วิทยาลัยเทคนิคกาฬสินธุ์ โดย
+                                    ส่งเข้าร่วมการแข่งขัน 1 รายการ ดังนี้
+                                    1. ทักษะการวิเคราะห์ข้อมูล ระดับ ปวช. ประเภท ทีม (รองชนะเลิศอันดับที่ 1)
+                                    ได้เป็นตัวแทนไปแข่งขันระดับชาติ ณ วิทยาลัยเทคนิคบุรีรัมย์ จังหวัดบุรีรัมย์<br>
+
+                                    อีกทั้งเป็นกรรมการดำเนินงาน ทักษะการวิเคราะห์ข้อมูล และทักษะเทคโนโลยีปัญญาประดิษฐ์
+                            </div>
+                            <div class="modal-extra-images">
+                                <img src="im/ท33.jpg" alt="">
+                                <img src="im/ท333.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="portfolio-card">
+                    <div class="card-img" onclick="openModal(this)" style="cursor: pointer;" title="คลิกเพื่อดูภาพเต็ม">
+                        <img src="im/ท4.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>การแข่งขันทักษะวิชาชีพและทักษะพื้นฐาน ระดับชาติ ปีการศึกษา 2568
+                        </h3>
+                        <p class="card-desc">วันที่ 11-15 กุมภาพันธ์ 2569
+                            เป็นครูผู้ควบคุมและนำนักศึกษาเข้าร่วมการแข่งขันทักษะวิชาชีพและทักษะพื้นฐาน
+                            ระดับชาติ ประจำปีการศึกษา 2568 จังหวัดบุรีรัมย์<br>
+                            ทักษะการวิเคราะห์ข้อมูล ระดับ ปวช. ประเภท ทีม (ได้รับรางวัลชนะเลิศอันดับ 1) <br>
+                        <p style="color: rgb(255, 0, 187);">เป็นกรรมการดำเนินงาน ทักษะการวิเคราะห์ข้อมูล
+                        </p>
+                        </p>
+
+                        <a href="javascript:void(0)" class="btn-text"
+                            onclick="openProjectModal(this)">ดูรายละเอียดเพิ่มเติม <i
+                                class="fas fa-arrow-right"></i></a>
+                        <!-- ข้อมูลซ่อนสำหรับ Modal ให้นำข้อความและรูปย่อยมาแก้ที่นี่ -->
+                        <div class="modal-data" style="display: none;">
+                            <div class="modal-extra-desc">
+                                <p>รายละเอียดเพิ่มเติม: วันที่ 11-15 กุมภาพันธ์ 2569
+                                    เป็นครูผู้ควบคุมและนำนักศึกษาเข้าร่วมการแข่งขันทักษะวิชาชีพและทักษะพื้นฐาน ระดับชาติ
+                                    ปีการศึกษา 2568 ณ วิทยาลัยเทคนิคบุรีรัมย์ โดย
+                                    ส่งเข้าร่วมการแข่งขัน 1 รายการ ดังนี้
+                                    1. ทักษะการวิเคราะห์ข้อมูล ระดับ ปวช. ประเภท ทีม (ชนะเลิศ)
+                                    <br>
+
+                                    อีกทั้งเป็นกรรมการดำเนินงาน ทักษะการวิเคราะห์ข้อมูล ระดับชาติ
+                            </div>
+                            <div class="modal-extra-images">
+                                <img src="im/ท44.jpg" alt="">
+                                <img src="im/ท444.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- More Activity Cards can go here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- The Modal (Lightbox) -->
+    <div id="imageModal" class="modal">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="fullImg">
+        <div id="caption"></div>
+    </div>
+
+    <!-- Project Details Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content-box">
+            <span class="close-modal" onclick="closeProjectModal()">&times;</span>
+            <div id="projectModalBody"></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
